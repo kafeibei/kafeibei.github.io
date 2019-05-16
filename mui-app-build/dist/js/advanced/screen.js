@@ -1,0 +1,1 @@
+"use strict";require(["vue","components/navBar","components/uploadVideo","utils/utils","utils/muiview","config/router"],function(t,e,i,n,o,u){e(),i();new t({el:"#page-container",data:function(){return{title:"录像",navBarConfig:{left:{type:"icon",action:"back"}},videoList:[]}}})});

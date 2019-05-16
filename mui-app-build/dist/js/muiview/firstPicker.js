@@ -1,0 +1,1 @@
+"use strict";define(["mui","muiPicker","muiPoppicker"],function(e,i,r){var n=function(i){if(e.PopPicker){var r=new e.PopPicker;r.setData(i);var n=function(e,i){i&&r.pickers[0].setSelectedValue(i.value),r.show(function(i){e&&e(i,r)})};return n}};return n});

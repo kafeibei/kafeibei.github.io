@@ -1,0 +1,1 @@
+"use strict";require(["vue","components/navBar","basic/components/popover"],function(e,n,i){n(),i();new e({el:"#page-container",data:function(){return{title:"弹出菜单",navBarConfig:{left:{type:"icon",action:"back"}},pickerInfo:{},pickerPopover:{id:"actionPopover",active:""}}},created:function(){},methods:{finishPicker:function(e,n){e>0&&(this.pickerInfo=n)}}})});

@@ -1,0 +1,1 @@
+"use strict";define(["config/config","api/index"],function(n,o){var i={mockLog:"../../json/log.json"},c={};return c.logConfig=function(n){return o.createConfig(i.mockLog)},c});

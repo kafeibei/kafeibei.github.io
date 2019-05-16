@@ -1,0 +1,1 @@
+"use strict";define(["md5","config/config","utils/utils","utils/userinfo"],function(n,r,t,e){var i=function(){var n=e.getUserInfo(),r={};n&&n.token&&(r.token=n.token);var i=(t.codeParam(r),{});for(var o in r)i[o]=r[o];return i};return i});

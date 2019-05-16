@@ -1,0 +1,1 @@
+"use strict";define(["vue"],function(t){var e=function(){t.component("hg-message",{props:{title:String},template:'<div class="compontent-message">\n    \t\t<div class="message-content">\n    \t\t\t<img src="../../assets/bg.png" />\n    \t\t\t<div class="message-title">自定义-----{{title}}</div>\n    \t\t</div>\n    \t</div>'})};return e});

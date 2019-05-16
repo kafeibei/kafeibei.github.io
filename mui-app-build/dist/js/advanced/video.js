@@ -1,0 +1,1 @@
+"use strict";require(["vue","components/navBar","components/uploadVideo","utils/utils","utils/muiview"],function(t,n,e,i,c){n(),e();new t({el:"#page-container",data:function(){return{title:"视频播放",navBarConfig:{left:{type:"icon",action:"back"}},videoList:[{src:"http://vjs.zencdn.net/v/oceans.mp4"},{src:"http://hwcsp.cn:7089/files/1547608280867.mp4"}]}}})});

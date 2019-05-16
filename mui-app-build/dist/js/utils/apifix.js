@@ -1,0 +1,1 @@
+"use strict";define(["utils/env","config/config"],function(e,r){var t=function(){var t=e();switch(t){case"develop":return r("APIDevPrefix");case"testing":return r("APITestPrefix");case"prerelease":return r("APIPrePrefix");default:return r("APIPrefix")}};return t});

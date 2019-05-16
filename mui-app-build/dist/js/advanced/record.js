@@ -1,0 +1,1 @@
+"use strict";require(["vue","components/navBar","components/uploadAudio","utils/utils","utils/muiview","config/router"],function(t,i,n,e,o,u){i(),n();new t({el:"#page-container",data:function(){return{title:"录音",navBarConfig:{left:{type:"icon",action:"back"}},audioList:[]}}})});

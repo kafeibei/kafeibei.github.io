@@ -1,0 +1,1 @@
+"use strict";define(["config/config","api/index"],function(n,o){var i={mockLocation:"../../json/location.json",mockAddress:"../../json/address.json"},e={};return e.pageConfig=function(n){return o.createConfig(n)},e.locationConfig=function(n){return e.pageConfig(i.mockLocation)},e.addressConfig=function(n){return e.pageConfig(i.mockAddress)},e});

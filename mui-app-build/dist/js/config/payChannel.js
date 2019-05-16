@@ -1,0 +1,1 @@
+"use strict";define(function(){return[{description:"支付宝",serviceReady:!0,id:"alih5pay"},{description:"微信",serviceReady:!1,id:"wxh5pay"}]});

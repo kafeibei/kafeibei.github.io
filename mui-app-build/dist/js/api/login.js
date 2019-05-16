@@ -1,0 +1,1 @@
+"use strict";define(["api/index"],function(n){var e={userLogin:"/cspAccount/login"},i={};return i.login=function(i){return n.createAPI(e.userLogin,"post",i)},i});

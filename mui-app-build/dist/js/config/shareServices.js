@@ -1,0 +1,1 @@
+"use strict";define(function(){return[{id:"qq",description:"QQ",authenticated:!0,nativeClient:!1},{id:"weixin",description:"微信",authenticated:!0,nativeClient:!1}]});

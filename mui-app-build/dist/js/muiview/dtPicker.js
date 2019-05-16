@@ -1,0 +1,1 @@
+"use strict";define(["mui","muiPicker"],function(n,e){var i=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},i=arguments[1];i&&(e.value=i);var u=new n.DtPicker(e),r=function(n,e){u.show(function(e){n&&n(e.value,u)})};return r};return i});
