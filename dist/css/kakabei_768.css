@@ -1,0 +1,10 @@
+@media (min-width: 768px) and (max-width: 991px) { .page-header .logo { display: none; }
+  .page-raffle .mobile { display: none; }
+  .page-raffle .carousel { height: 480px; }
+  .page-raffle .carousel-indicators { left: 0; bottom: auto; margin: 0 auto; }
+  .page-raffle .carousel-li.active:after { content: none; }
+  .page-webapp .mobile { display: none; }
+  .page-lavarel .mac { width: 735px; height: 464px; background-size: 735px 464px; }
+  .page-lavarel .mac-inner { left: 44px; top: 25px; width: 646px; height: 411px; } }
+
+/*# sourceMappingURL=../maps/css/kakabei_768.css.map */

@@ -1,0 +1,21 @@
+@media (max-width: 767px) { .page-header .logo { display: none; }
+  .page-header .bar { font-size: 14px; padding: 0 10px; margin-right: 10px; }
+  .page-section .page-title { padding: 50px 0 30px; font-size: 24px; }
+  .page-section .banner-item { font-size: 16px; }
+  .page-section .banner-item .mini { font-size: 12px; }
+  .page-participation .part-img { height: 108px; }
+  .page-participation .part-duanshu { width: 120px; height: 48px; }
+  .page-participation .part-xiuzan { width: 107px; height: 36px; }
+  .page-participation .part-m2o { width: 118px; height: 56px; }
+  .page-participation .part-jumaoe { width: 108px; height: 35px; }
+  .page-participation .part-title { font-size: 16px; line-height: 24px; }
+  .page-participation .part-brief { font-size: 13px; }
+  .page-raffle .mobile { display: none; }
+  .page-raffle .carousel { height: 480px; }
+  .page-raffle .carousel-indicators { left: 0; bottom: auto; margin: 0 auto; }
+  .page-raffle .carousel-li.active:after { content: none; }
+  .page-webapp .mobile { display: none; }
+  .page-lavarel .mac { width: 490px; height: 309px; background-size: 490px 309px; }
+  .page-lavarel .mac-inner { left: 30px; top: 16px; width: 430px; height: 274px; } }
+
+/*# sourceMappingURL=../maps/css/kakabei_mini.css.map */

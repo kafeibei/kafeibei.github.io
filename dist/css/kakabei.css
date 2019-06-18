@@ -16,7 +16,7 @@
 
 .page-section .mobile-inner img { object-fit: cover; }
 
-.page-section .mac { position: relative; width: 980px; height: 618px; background-image: url("../images/mac.png"); background-image: -webkit-image-set(url("../images/mac.png") 1x, url("../images/mac.png") 1x); background-image: -webkit-image-set(url("../images/mac.png") 1x, url("../images/mac.png") 2x); background-image: image-set(url("../images/mac.png") 1x, url("../images/mac.png") 2x); background-size: 980px 618px; }
+.page-section .mac { position: relative; width: 980px; height: 618px; margin: 0 auto; background-image: url("../images/mac.png"); background-image: -webkit-image-set(url("../images/mac.png") 1x, url("../images/mac.png") 1x); background-image: -webkit-image-set(url("../images/mac.png") 1x, url("../images/mac.png") 2x); background-image: image-set(url("../images/mac.png") 1x, url("../images/mac.png") 2x); background-size: 980px 618px; }
 
 .page-section .mac-inner { position: absolute; left: 59px; top: 33px; width: 862px; height: 547px; border-radius: 1px; background-color: #f5f5f5; }
 
@@ -41,6 +41,8 @@
 .page-header .bar { display: inline-block; margin-right: 20px; padding: 0 20px; font-size: 16px; color: rgba(255, 255, 255, 0.8); }
 
 .page-header .bar:hover, .page-header .bar:active, .page-header .bar.active { color: #fff; }
+
+.page-header .bar:last-child { margin-right: 0; }
 
 .page-header .navbar { padding: 0; }
 
@@ -98,9 +100,11 @@
 
 .page-raffle .indicator { position: relative; }
 
+.page-raffle .carousel { height: 809px; }
+
 .page-raffle .carousel-indicators { top: 10px; width: 452px; margin-right: 20px; left: auto; }
 
-.page-raffle .carousel-li { position: relative; width: 100%; height: auto; text-indent: 0; margin-bottom: 20px; margin-right: 0; background-color: #f5f5f5; padding: 15px 20px; border-radius: 3px; cursor: pointer; }
+.page-raffle .carousel-li { position: relative; width: 100%; height: auto; text-indent: 0; margin: 0 0 20px 0; background-color: #f5f5f5; padding: 15px 20px; border-radius: 3px; cursor: pointer; }
 
 .page-raffle .carousel-li .img-box { width: 72px; height: 72px; }
 
@@ -120,7 +124,7 @@
 
 .page-webapp iframe { width: 100%; height: 100%; }
 
-.page-webapp .webapp-label a { display: inline-block; width: 150px; height: 100px; padding: 5px; margin: 0 10px 10px 0; border: 1px solid #e0e0e0; border-radius: 3px; text-align: center; background-color: #fff; vertical-align: middle; }
+.page-webapp .webapp-label a { display: inline-block; width: 150px; height: 100px; padding: 5px; margin: 0 10px 10px 0; border-radius: 3px; text-align: center; background-color: #fff; vertical-align: middle; }
 
 .page-webapp .webapp-label .label-img img { width: 80%; }
 
@@ -148,6 +152,8 @@
 
 .page-participation .part-img img { -webkit-transition: all 0.3s; transition: all 0.3s; }
 
+.page-participation .part-title { padding: 0 15px; line-height: 28px; }
+
 .page-participation .tips { position: absolute; top: 10px; left: 0; width: 100%; text-align: center; color: #ff637c; }
 
 .page-participation .part-duanshu { width: 160px; height: 64px; }
@@ -169,5 +175,34 @@
 .page-footer { border-top: 1px solid #e0e0e0; text-align: center; padding: 20px 0; color: #666; }
 
 .page-footer .img-box { width: 120px; height: 32px; margin-bottom: 5px; }
+
+@media (max-width: 767px) { .page-header .logo { display: none; }
+  .page-header .bar { font-size: 14px; padding: 0 10px; margin-right: 10px; }
+  .page-section .page-title { padding: 50px 0 30px; font-size: 24px; }
+  .page-section .banner-item { font-size: 16px; }
+  .page-section .banner-item .mini { font-size: 12px; }
+  .page-participation .part-img { height: 108px; }
+  .page-participation .part-duanshu { width: 120px; height: 48px; }
+  .page-participation .part-xiuzan { width: 107px; height: 36px; }
+  .page-participation .part-m2o { width: 118px; height: 56px; }
+  .page-participation .part-jumaoe { width: 108px; height: 35px; }
+  .page-participation .part-title { font-size: 16px; line-height: 24px; }
+  .page-participation .part-brief { font-size: 13px; }
+  .page-raffle .mobile { display: none; }
+  .page-raffle .carousel { height: 480px; }
+  .page-raffle .carousel-indicators { left: 0; bottom: auto; margin: 0 auto; }
+  .page-raffle .carousel-li.active:after { content: none; }
+  .page-webapp .mobile { display: none; }
+  .page-lavarel .mac { width: 490px; height: 309px; background-size: 490px 309px; }
+  .page-lavarel .mac-inner { left: 30px; top: 16px; width: 430px; height: 274px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .page-header .logo { display: none; }
+  .page-raffle .mobile { display: none; }
+  .page-raffle .carousel { height: 480px; }
+  .page-raffle .carousel-indicators { left: 0; bottom: auto; margin: 0 auto; }
+  .page-raffle .carousel-li.active:after { content: none; }
+  .page-webapp .mobile { display: none; }
+  .page-lavarel .mac { width: 735px; height: 464px; background-size: 735px 464px; }
+  .page-lavarel .mac-inner { left: 44px; top: 25px; width: 646px; height: 411px; } }
 
 /*# sourceMappingURL=../maps/css/kakabei.css.map */
