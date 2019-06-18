@@ -11,7 +11,9 @@ a { color: #1975d2; text-decoration: none; }
 
 a:hover { text-decoration: none; }
 
-.img-box { display: inline-block; vertical-align: middle; background-color: #b8b8b8; line-height: 0; }
+.img-box { display: inline-block; vertical-align: middle; line-height: 0; }
+
+.outlink { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 99; }
 
 .img-bg { background: no-repeat center transparent; }
 
@@ -36,6 +38,10 @@ a:hover { text-decoration: none; }
 
 .hg-flex-overflow { flex-wrap: wrap; }
 
+.hg-overflow { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+.line3-overflow { display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+
 .hide { display: none !important; }
 
 .clear { overflow: visible; }
@@ -43,6 +49,8 @@ a:hover { text-decoration: none; }
 .clear:after { clear: both; content: '.'; display: block; visibility: hidden; height: 0; }
 
 .btn { display: inline-block; font-size: 16px; cursor: pointer; outline: none; padding: 2px 8px; border: 1px solid transparent; border-radius: 3px; }
+
+.btn:focus { box-shadow: none; }
 
 .btn-full { width: 100%; height: 58px; line-height: 58px; font-size: 18px; border-radius: 8px; }
 
@@ -56,9 +64,9 @@ a:hover { text-decoration: none; }
 
 .btn-primary-outline { background-color: transparent; border-color: #1975d2; color: #1975d2; }
 
-.btn-primary-outline:hover { border-color: #2584e5; color: #2584e5; }
+.btn-primary-outline:hover { border-color: #2584e5; background-color: #2584e5; color: #fff; }
 
-.btn-primary-outline:active { border-color: #1666b7; color: #1666b7; }
+.btn-primary-outline:active { border-color: #1666b7; background-color: #1666b7; color: #fff; }
 
 .btn-default { background-color: #fff; border-color: #d7d7d7; color: #999; }
 
