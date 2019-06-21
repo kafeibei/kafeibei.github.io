@@ -20,13 +20,6 @@ let baseConfig = {
 		json 	: basePaths+'/dist',
 		image	: basePaths+'/dist'
 	},
-	pathsBuild: {
-		html	: buildPaths + '/raffle-h5',
-		css		: buildPaths + '/raffle-h5',
-		script	: buildPaths + '/raffle-h5',
-		json 	: buildPaths + '/raffle-h5',
-		image	: buildPaths + '/raffle-h5'
-	},
 	autoprefixerConfig: {
 		browsers: ['last 2 version']
 	},
@@ -34,7 +27,7 @@ let baseConfig = {
 		extensions: ['png'],
 		maxImageSize: 8*1024
 	},
-	pxToViewport: false
+	pxToViewport: true
 }
 
 let projectConfig = require('./' + basePaths + '/project.config');

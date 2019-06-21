@@ -1,0 +1,109 @@
+body { font-size: 3.73vmin; }
+
+.page-header { height: 48vmin; background-image: url("../../images/h5/logo_bg.png"); background-image: -webkit-image-set(url("../../images/h5/logo_bg.png") 1x, url("../../images/h5/logo_bg.png") 1x); background-image: -webkit-image-set(url("../../images/h5/logo_bg.png") 1x, url("../../images/h5/logo_bg.png") 2x); background-image: image-set(url("../../images/h5/logo_bg.png") 1x, url("../../images/h5/logo_bg.png") 2x); background-size: auto auto; background-size: cover; color: #fff; }
+
+.page-header .logo { display: block; width: 80vmin; height: 21.33vmin; margin: 0 auto; }
+
+.page-header .slogo { font-weight: normal; text-align: center; }
+
+.page-section { padding-bottom: 16vmin; overflow: hidden; }
+
+.page-section:nth-child(2n+1) { background-color: #fff; }
+
+.page-section .page-title { font-weight: normal; text-align: center; padding: 13.33vmin 0 10.67vmin; font-size: 6.4vmin; }
+
+.page-section .label { position: relative; color: #faa032; font-size: 4.27vmin; margin-left: 5.33vmin; }
+
+.page-section .label:after { position: absolute; left: -3.2vmin; top: 2.13vmin; width: 1.33vmin; height: 1.33vmin; border-radius: 50%; content: ''; background-color: #faa032; }
+
+.page-section .learn-more { margin-top: 8vmin; text-align: center; }
+
+.page-section .btn { line-height: 6.4vmin; font-size: 3.73vmin; padding: 2.13vmin 8vmin; border-radius: 0.8vmin; }
+
+.page-section .btn-github { margin-right: 1.87vmin; }
+
+.page-banner { text-align: center; }
+
+.page-banner .banner-item { position: relative; float: left; overflow: hidden; width: 28.8vmin; height: 28.8vmin; font-size: 3.73vmin; color: #fff; line-height: 5.87vmin; margin: 1.6vmin; border-radius: 50%; }
+
+.page-banner .banner-item:nth-child(3n+1) { margin-left: 3.2vmin; }
+
+.page-banner .banner-item:nth-child(3n) { margin-right: 3.2vmin; }
+
+.page-banner .banner-item .mini { font-size: 3.2vmin; }
+
+.page-banner .banner-item:nth-child(1) { background-color: #0769ad; }
+
+.page-banner .banner-item:nth-child(2) { background-color: #563d7c; }
+
+.page-banner .banner-item:nth-child(3) { background-color: #41b882; }
+
+.page-banner .banner-item:nth-child(4) { background-color: #d64c28; }
+
+.page-banner .banner-item:nth-child(5) { background-color: #44b549; }
+
+.page-banner .banner-item:nth-child(6) { background-color: #e74430; }
+
+.page-participation .part-item { position: relative; width: 46.67vmin; float: left; text-align: center; margin: 1.07vmin; padding-bottom: 4vmin; border: 1px solid #e0e0e0; background-color: #fff; border-radius: 0.8vmin; }
+
+.page-participation .part-item:nth-child(2n) { margin-right: 2.13vmin; }
+
+.page-participation .part-item:nth-child(2n+1) { margin-left: 2.13vmin; }
+
+.page-participation .part-img { height: 24vmin; text-align: center; }
+
+.page-participation .tips { position: absolute; top: 2.67vmin; left: 0; width: 100%; text-align: center; color: #ff637c; }
+
+.page-participation .part-duanshu { width: 32vmin; height: 12.8vmin; }
+
+.page-participation .part-xiuzan { width: 31.47vmin; height: 10.67vmin; }
+
+.page-participation .part-jumaoe { width: 32.53vmin; height: 10.67vmin; }
+
+.page-participation .part-m2o { width: 28.8vmin; height: 13.6vmin; }
+
+.page-participation .part-title { line-height: 7.47vmin; font-size: 3.73vmin; font-weight: normal; }
+
+.page-raffle .carousel-li { margin: 0 5.33vmin 5.33vmin; background-color: #f5f5f5; padding: 2.67vmin 4vmin; border-radius: 0.8vmin; }
+
+.page-raffle .carousel-li .img-box { width: 19.2vmin; height: 19.2vmin; }
+
+.page-raffle .carousel-title { font-weight: normal; font-size: 5.33vmin; }
+
+.page-raffle .carousel-brief { font-size: 4.27vmin; color: #999; margin: 0; }
+
+.page-raffle .qrcode-area { width: 12.8vmin; height: 12.8vmin; }
+
+.page-webapp .webapp-label a { display: inline-block; width: 45.33vmin; height: 26.67vmin; margin: 1.33vmin; border-radius: 0.8vmin; text-align: center; background-color: #fff; vertical-align: middle; }
+
+.page-webapp .webapp-label a:nth-child(2n) { margin-right: 2.67vmin; }
+
+.page-webapp .webapp-label a:nth-child(2n+1) { margin-left: 2.67vmin; }
+
+.page-webapp .webapp-label .label-img img { width: 70%; }
+
+.page-webapp .webapp-label .label-mui { font-weight: 300; color: #fff; font-size: 8vmin; line-height: 25.33vmin; background-color: #d64c28; }
+
+.page-webapp .webapp-label .label-gulp { background-color: #cf4645; }
+
+.page-webapp .webapp-label .label-echarts { background-color: #293c55; }
+
+.page-webapp .webapp-label .label-fullcalendar { background-color: #20232a; font-size: 4.27vmin; color: #fff; font-family: Muli,sans-serif; font-weight: 800; -webkit-font-smoothing: auto; line-height: 26.13vmin; }
+
+.page-webapp .webapp-label .label-fullcalendar img { width: 4.8vmin; height: 4.8vmin; margin-right: 1.33vmin; vertical-align: middle; }
+
+.page-webapp .webapp-label .label-lazyload { line-height: 24vmin; background-color: #20232a; font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif; font-weight: 800; font-size: 5.33vmin; color: #fff; }
+
+.page-webapp .webapp-label .label-md5 { background-color: #5C87B2; }
+
+.page-lavarel .lavarel-ul { padding: 0 5.33vmin; }
+
+.page-lavarel .carousel-li { position: relative; line-height: 11.73vmin; padding-left: 4.8vmin; border-bottom: 1px solid #efefef; }
+
+.page-lavarel .carousel-li:after { position: absolute; left: 1.33vmin; top: 5.33vmin; background-color: #1975d2; width: 1.07vmin; height: 1.07vmin; border-radius: 50%; content: ''; }
+
+.page-footer { border-top: 1px solid #e0e0e0; text-align: center; padding: 5.33vmin 0; }
+
+.page-footer .img-box { width: 32vmin; height: 8.53vmin; }
+
+/*# sourceMappingURL=../../maps/css/m/h5.css.map */

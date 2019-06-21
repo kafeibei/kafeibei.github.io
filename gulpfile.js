@@ -28,11 +28,11 @@ sass.compiler = require('node-sass');
 
 /* = Environmental Witch
 -------------------------------------------------------------- */
-if ( gutil.env.build === true ) {
+if ( gutil.env.test === true ) {
     config.isDev = false;
     config.sourceMap = false;
     config.sassStyle = 'compressed';
-    config.pathsDev = config.pathsBuild;
+    config.pathsDev = config.pathsTest;
 }
 
 /* = Task List
@@ -52,16 +52,29 @@ exports.html = html;
 
 // styles
 function styles() {
+    return src([config.paths.css+'/**/*.scss', '!'+config.paths.css+'/**/m/*.scss'])
+        .pipe(config.isDev ? sourcemaps.init() : gutil.noop())
+        .pipe(sass({outputStyle: config.sassStyle}).on('error', sass.logError))
+        .pipe(autoprefixer(config.autoprefixerConfig))
+        .pipe(base64(config.base64Config))
+        .pipe(config.sourceMap ? sourcemaps.write('maps') : gutil.noop())
+        .pipe(dest(config.pathsDev.css))
+        .pipe(connect.reload())
+};
+exports.styles = styles;
+
+// h5Styles
+function h5Styles() {
     const processors = [
         pxtoviewport({
-            viewportWidth: 1240,
+            viewportWidth: 750,
             unitPrecision: 2,
             viewportUnit: 'vmin',
             fontViewportUnit: 'vmin',
             minPixelValue: 2
         })
     ];
-    return src(config.paths.css+'/**/*.scss')
+    return src(config.paths.css+'/**/m/*.scss')
         .pipe(config.isDev ? sourcemaps.init() : gutil.noop())
         .pipe(sass({outputStyle: config.sassStyle}).on('error', sass.logError))
         .pipe(config.pxToViewport ? postcss(processors) : gutil.noop())
@@ -71,7 +84,7 @@ function styles() {
         .pipe(dest(config.pathsDev.css))
         .pipe(connect.reload())
 };
-exports.styles = styles;
+exports.h5Styles = h5Styles;
 
 // images
 function images() {
@@ -147,7 +160,8 @@ exports.copyjs = copyjs;
 // watch
 function watchList() {
     watch(config.paths.html + '/**/*.html', series(html));
-    watch(config.paths.css + '/**/*.scss', series(styles));
+    watch([config.paths.css + '/**/*.scss', '!'+config.paths.css + '/**/*.scss'], series(styles));
+    watch(config.paths.css + '/**/m/*.scss', series(h5Styles));
     watch(config.paths.image + '/**/images/*', series(images));
     watch(config.paths.script + '/**/*.json', series(json));
     watch(config.paths.script + '/**/*.js', series(scripts));
@@ -172,7 +186,7 @@ exports.clean = clean;
 exports.default = series(parallel(server, watchList));
 
 // init/build
-exports.init = series(clean, html, styles, images, scripts, json, audio, copycss, copyjs, (done) => {
+exports.init = series(clean, html, styles, h5Styles, images, scripts, json, audio, copycss, copyjs, (done) => {
     console.log('项目初始化构建完成...');
     done();
 })
