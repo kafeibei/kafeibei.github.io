@@ -1,6 +1,6 @@
 body { font-size: 3.73vmin; }
 
-.page-header { height: 48vmin; background-image: url("../../images/h5/logo_bg.png"); background-image: -webkit-image-set(url("../../images/h5/logo_bg.png") 1x, url("../../images/h5/logo_bg.png") 1x); background-image: -webkit-image-set(url("../../images/h5/logo_bg.png") 1x, url("../../images/h5/logo_bg.png") 2x); background-image: image-set(url("../../images/h5/logo_bg.png") 1x, url("../../images/h5/logo_bg.png") 2x); background-size: auto auto; background-size: cover; color: #fff; }
+.page-header { height: 48vmin; background-image: url("../../images/h5/logo_bg.png"); background-image: -webkit-image-set(url("../../images/h5/logo_bg.png") 1x, url("../../images/h5/logo_bg.png") 1x); background-image: -webkit-image-set(url("../../images/h5/logo_bg.png") 1x, url("../../images/h5/logo_bg.png") 2x); background-image: image-set(url("../../images/h5/logo_bg.png") 1x, url("../../images/h5/logo_bg.png") 2x); background-size: auto auto; background-color: #046fdb; background-size: cover; color: #fff; }
 
 .page-header .logo { display: block; width: 80vmin; height: 21.33vmin; margin: 0 auto; }
 
