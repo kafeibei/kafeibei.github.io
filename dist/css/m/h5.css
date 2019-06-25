@@ -18,7 +18,7 @@ body { font-size: 3.73vmin; }
 
 .page-section .learn-more { margin-top: 8vmin; text-align: center; }
 
-.page-section .btn { line-height: 6.4vmin; font-size: 3.73vmin; padding: 2.13vmin 8vmin; border-radius: 0.8vmin; }
+.page-section .btn { height: 11.2vmin; line-height: 8.53vmin; font-size: 3.73vmin; padding: 1.33vmin 8vmin; border-radius: 0.8vmin; }
 
 .page-section .btn-github { margin-right: 1.87vmin; }
 
@@ -74,27 +74,11 @@ body { font-size: 3.73vmin; }
 
 .page-raffle .qrcode-area { width: 12.8vmin; height: 12.8vmin; }
 
-.page-webapp .webapp-label a { display: inline-block; width: 45.33vmin; height: 26.67vmin; margin: 1.33vmin; border-radius: 0.8vmin; text-align: center; background-color: #fff; vertical-align: middle; }
+.page-webapp .webapp-qrcode { margin-bottom: 10.67vmin; text-align: center; }
 
-.page-webapp .webapp-label a:nth-child(2n) { margin-right: 2.67vmin; }
+.page-webapp .webapp-qrcode .img-box { width: 40vmin; height: 40vmin; }
 
-.page-webapp .webapp-label a:nth-child(2n+1) { margin-left: 2.67vmin; }
-
-.page-webapp .webapp-label .label-img img { width: 70%; }
-
-.page-webapp .webapp-label .label-mui { font-weight: 300; color: #fff; font-size: 8vmin; line-height: 25.33vmin; background-color: #d64c28; }
-
-.page-webapp .webapp-label .label-gulp { background-color: #cf4645; }
-
-.page-webapp .webapp-label .label-echarts { background-color: #293c55; }
-
-.page-webapp .webapp-label .label-fullcalendar { background-color: #20232a; font-size: 4.27vmin; color: #fff; font-family: Muli,sans-serif; font-weight: 800; -webkit-font-smoothing: auto; line-height: 26.13vmin; }
-
-.page-webapp .webapp-label .label-fullcalendar img { width: 4.8vmin; height: 4.8vmin; margin-right: 1.33vmin; vertical-align: middle; }
-
-.page-webapp .webapp-label .label-lazyload { line-height: 24vmin; background-color: #20232a; font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif; font-weight: 800; font-size: 5.33vmin; color: #fff; }
-
-.page-webapp .webapp-label .label-md5 { background-color: #5C87B2; }
+.page-webapp .qrcode-title { line-height: 4vmin; font-size: 4vmin; font-weight: normal; margin: 2.67vmin 0 4vmin; color: #999; }
 
 .page-lavarel .lavarel-ul { padding: 0 5.33vmin; }
 
