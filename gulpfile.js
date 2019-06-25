@@ -136,7 +136,7 @@ function server() {
     connect.server({
         name: 'ENV：' + (config.isDev ? 'Development' : 'Production'),
         root: './',
-        host: 'raffle_new.hjx.com',
+        host: 'www_new.hjx.com',
         port: 8000,
         livereload: true
     });

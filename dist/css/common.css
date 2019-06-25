@@ -48,7 +48,7 @@ a:hover { text-decoration: none; }
 
 .clear:after { clear: both; content: '.'; display: block; visibility: hidden; height: 0; }
 
-.btn { display: inline-block; font-size: 16px; cursor: pointer; outline: none; padding: 2px 8px; border: 1px solid transparent; border-radius: 3px; }
+.btn { height: 42px; line-height: 24px; display: inline-block; font-size: 16px; cursor: pointer; outline: none; padding: 2px 8px; border: 1px solid transparent; border-radius: 3px; }
 
 .btn:focus { box-shadow: none; }
 
