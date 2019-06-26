@@ -102,7 +102,7 @@
 
 .page-raffle .carousel { height: 809px; }
 
-.page-raffle .carousel-indicators { top: 10px; width: 452px; margin-right: 20px; left: auto; }
+.page-raffle .carousel-indicators { top: 10px; width: 452px; }
 
 .page-raffle .carousel-li { position: relative; width: 100%; height: auto; text-indent: 0; margin: 0 0 20px 0; background-color: #f5f5f5; padding: 15px 20px; border-radius: 3px; cursor: pointer; }
 
@@ -128,7 +128,7 @@
 
 .page-webapp .webapp-qrcode .img-box { width: 200px; height: 200px; }
 
-.page-webapp .qrcode-title { font-size: 22px; font-weight: normal; margin: 20px 0 30px; color: #999; }
+.page-webapp .qrcode-title { line-height: 30px; font-size: 22px; font-weight: normal; margin: 20px 0 30px; color: #999; }
 
 .page-webapp .webapp-label a { display: inline-block; width: 100px; height: 80px; padding: 5px; margin: 10px; border-radius: 3px; text-align: center; background-color: #fff; vertical-align: middle; }
 
