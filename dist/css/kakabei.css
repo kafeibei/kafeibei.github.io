@@ -18,7 +18,7 @@
 
 .page-section .mac { position: relative; width: 980px; height: 618px; margin: 0 auto; background-image: url("../images/mac.png"); background-image: -webkit-image-set(url("../images/mac.png") 1x, url("../images/mac.png") 1x); background-image: -webkit-image-set(url("../images/mac.png") 1x, url("../images/mac.png") 2x); background-image: image-set(url("../images/mac.png") 1x, url("../images/mac.png") 2x); background-size: 980px 618px; }
 
-.page-section .mac-inner { position: absolute; left: 59px; top: 33px; width: 862px; height: 547px; border-radius: 1px; background-color: #f5f5f5; }
+.page-section .mac-inner { position: absolute; left: 59px; top: 33px; width: 862px; height: 547px; border-radius: 1px; background-color: #e5e5e5; }
 
 .page-section .mac-inner img { object-fit: cover; }
 
@@ -50,7 +50,7 @@
 
 .page-banner .banner-item { position: relative; float: left; overflow: hidden; width: 32%; height: 120px; font-size: 20px; color: #fff; line-height: 120px; margin-right: 2%; margin-bottom: 2%; border-radius: 3px; }
 
-.page-banner .banner-item .show { background-color: #f5f5f5; }
+.page-banner .banner-item .show { background-color: #e5e5e5; }
 
 .page-banner .banner-item .cover { position: absolute; left: 0; top: 0; width: 100%; height: 100%; -webkit-transition: all 0.3s; transition: all 0.3s; color: #fff; }
 
@@ -104,7 +104,7 @@
 
 .page-raffle .carousel-indicators { top: 10px; width: 452px; }
 
-.page-raffle .carousel-li { position: relative; width: 100%; height: auto; text-indent: 0; margin: 0 0 20px 0; background-color: #f5f5f5; padding: 15px 20px; border-radius: 3px; cursor: pointer; }
+.page-raffle .carousel-li { position: relative; width: 100%; height: auto; text-indent: 0; margin: 0 0 20px 0; background-color: #e5e5e5; padding: 15px 20px; border-radius: 3px; cursor: pointer; }
 
 .page-raffle .carousel-li .img-box { width: 72px; height: 72px; }
 
